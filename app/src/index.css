@@ -47,6 +47,33 @@ a {
 a:hover {
   color: #ff8000;
 }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  margin-bottom: 1rem;
+}
+button,
+button:hover {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #a4a4a4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: #f0c040;
+}
+button.block {
+  width: 100%;
+}
 
 h1,
 h2 {
@@ -76,6 +103,15 @@ a.brand:hover {
 .row.center {
   justify-content: center;
 }
+.row.top {
+  align-items: flex-start;
+}
+.col-1 {
+  flex: 1 1 25rem;
+}
+.col-2 {
+  flex: 2 1 50rem;
+}
 
 /* iamge */
 
@@ -86,7 +122,9 @@ img.medium {
   max-width: 29rem;
   width: 100%;
 }
-
+img.large {
+  width: 100%;
+}
 /* card */
 
 .card {
@@ -117,4 +155,12 @@ img.medium {
 .rating span.review {
   color: #000;
   margin-left: 0.5rem;
+}
+
+/* alert */
+.success {
+  color: #20a020;
+}
+.error {
+  color: #a02020;
 }

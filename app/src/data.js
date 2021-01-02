@@ -9,7 +9,8 @@
             brand: 'Sud',
             rating: 4.5,
             numReviews: 10,
-            description: 'Book for old history'
+            description: 'Book for old history',
+            countINStock:10
         },
         {
             _id:'2',
@@ -20,7 +21,8 @@
             brand: 'Sud',
             rating: 4.5,
             numReviews: 10,
-            description: 'Book for old history'
+            description: 'Book for old history',
+            countINStock:0
         },
         {
             _id:'3',
@@ -31,7 +33,8 @@
             brand: 'Sud',
             rating: 4.5,
             numReviews: 17,
-            description: 'Book for old history'
+            description: 'Book for old history',
+            countINStock:10
         },
         {
             _id:'4',
@@ -42,7 +45,8 @@
             brand: 'Sud',
             rating: 4.5,
             numReviews: 10,
-            description: 'Book for old history'
+            description: 'Book for old history',
+            countINStock:10
         },
         {
             _id:'5',
@@ -53,7 +57,8 @@
             brand: 'Sud',
             rating: 4.5,
             numReviews: 2,
-            description: 'Book for old history'
+            description: 'Book for old history',
+            countINStock:10
         },
         {
             _id:'6',
@@ -64,7 +69,8 @@
             brand: 'Sud',
             rating: 4.5,
             numReviews: 10,
-            description: 'Book for old history'
+            description: 'Book for old history',
+            countINStock:10
         },
     ]
 }
